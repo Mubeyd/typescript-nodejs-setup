@@ -6,4 +6,4 @@ app.get("/", (req: Request, res: Response, next: NextFunction) => {
   res.send("Hello, omg it's working");
 });
 
-app.listen(5000, () => console.log("Server running here"));
+app.listen(5200, () => console.log("Server running here"));
